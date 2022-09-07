@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#FFAD33"
+        android:hint="example@example.com"
+        android:inputType = "textEmailAddress"
+        android:background="@drawable/login_window"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#FFAD33"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_window"
+        android:paddingLeft ="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtPass"
+        android:layout_marginTop="40dp"
+        android:text="login"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/login_btn"/>
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Does not have an account?\nSign up here"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnlogin"
+        android:background="#ffffff"
+        android:textColor="#FF9900"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FF9900"
+        android:textSize="20sp"
+        android:layout_marginTop="500dp"
+        android:text="Made by Group 9"
+        android:gravity="center"/>
+
+
+
+
+</RelativeLayout>

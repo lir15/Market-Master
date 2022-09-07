@@ -1,1 +1,5 @@
-# Market-Master
+# 4278-Team-9-Project
+Our team is planning on developing an application that stores stock market data, providing functions via api requests. The application will allow users to examine historical stock price upon their requests. Users will be able to update and delete their stock data and only focus on the stocks they are interested in. 
+<br /><br /> For the developing software, we propose using IntelliJ Idea, which is an alternative to Eclipse, but we think IntelliJ has better interfaces and more powerful functionalities. As mentioned before, the interface Spring provides a complete set of components SpringCloud for microservices, and SprintBoot is the foundation. We plan to use IDEA+SpringBoot to complete all the necessary operations on the database according to the client’s needs. Apart from the developing software, we need to find access to the free stock data for the project. There are finance APIs available online that we can export data as Comma-Separated Values, CSV for analyzing. Finally, for supplementary requirements, we are considering integrating Netflix Eureka for load balance and monitor since our project itself uses Spring Cloud and Spring Boot which has a sufficient set of open source codes to integrate Eureka.
+
+reference to the project: https://github.com/bwnuk/yahoofinance
